@@ -1,6 +1,7 @@
 # Slack bot
 
-In this Slack Bot i have written a simple slack bot that will tell us the current weather.
+In this Slack Bot I have written a simple slack bot that connects to a Slack Team using token and then provides options to either delete the feature or integrate it.
+These features are part of a bigger project where LaunchDarkly API is used to keep track of Feature Flags
 
 I have usef [botkit](https://github.com/howdyai/botkit) for helping connect with slack, and [forecast.io](https://developer.forecast.io/) for weather info.
 
