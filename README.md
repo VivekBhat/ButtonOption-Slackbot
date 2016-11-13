@@ -20,14 +20,12 @@ npm install
 
 3. Copy slack bot token.
 
-4. Get forecast.io token. 
-
-5. Update your environment variables.
+4. Update your environment variables.
    
 ### Running the bot
 
 Goal is to be able to run the bot and get the current weather:
 
-![image](https://cloud.githubusercontent.com/assets/742934/18172392/2e9a333c-7033-11e6-8dcd-81df6031b0ab.png)
+![image](https://github.com/VivekBhat/ButtonOption-Slackbot/blob/master/Resources/Screen%20Shot.png)
 
 * If you can run `node bot.js` and it outputs something and waits, that's good.
