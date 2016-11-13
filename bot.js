@@ -32,7 +32,6 @@ controller.hears('delete',['mention', 'direct_mention'], function(bot,message) {
 var msg = 
 	{
     "text": "Would you like to integrate or delete the feature?",
-    "username": "ButtonBot",
     "icon_emoji": ":unicorn_face:",
             
     "attachments": [
