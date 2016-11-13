@@ -1,15 +1,15 @@
 var SlackBot = require('slackbots');
 var botkit = require("botkit")
 var Forecast = require('forecast.io');
-var options = {APIKey:'4b7d1738c6ffc0f5121dd56ce3981c39'};
+var options = {APIKey:process.env.FORECAST};
 var forecast = new Forecast(options);
 var childProcess = require("child_process");
 
 // create a bot 
 var bot = new SlackBot({
     // Add a bot https://my.slack.com/services/new/bot and put the token  
-    token: 'xoxb-101499277473-zwmiBF1e1azyeXflzrOzbvpF', 
-    name: 'Test'
+    token: process.env.SLACKBOT_TEST, 
+    name: 'paperbot'
 });
  
 bot.on('start', function() {
