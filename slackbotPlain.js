@@ -18,11 +18,6 @@ bot.on('start', function() {
         username: 'Buttons',
         icon_emoji: ':unicorn_face:'
     };
-    
-    // define channel, where bot exist. You can adjust it there https://my.slack.com/services  
-    // define existing username instead of 'user_name' 
-    //bot.postMessageToUser('cjparnin', 'meow!', params); 
-        // bot.postMessageToChannel('general', 'meow!', params);
 
 });
 
